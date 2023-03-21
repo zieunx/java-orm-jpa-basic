@@ -27,6 +27,12 @@
             <artifactId>h2</artifactId>
             <version>2.1.214</version> <!-- 다운받은 H2 버전과 맞춰주는 것이 좋다. -->
         </dependency>
+        <!-- Java 11 에러 -->
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>2.3.0</version>
+        </dependency>
     </dependencies>
 
 </project>
